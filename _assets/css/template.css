@@ -53,7 +53,13 @@ nav a:hover {
 }
 
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
-/* Banner */
+/* Seção - Banner */
+.banner {
+    background-image: url('../images/fundo_banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
 
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
 /* Corpo */
