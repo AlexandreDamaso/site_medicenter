@@ -1,17 +1,30 @@
 /* Universal */
 
-
 /* Geral */
-
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
 
 /* Cabeçalho */
-
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
 
 /* Banner */
 
-
 /* Corpo */
-
 
 /* Rodapé */
 
