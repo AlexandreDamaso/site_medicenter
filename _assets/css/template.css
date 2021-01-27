@@ -142,7 +142,51 @@ nav a:hover {
 
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
 /* Corpo */
+.corpo {
+    display: flex;
+    justify-content: center;
+}
 
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Corpo - Artigo */
+.corpo section {
+    flex: 2;
+}
+
+/* ##### ##### ##### ##### ##### ##### ##### ##### */
+/* Corpo - Aside */
+.corpo aside {
+    flex: 1;
+}
+.widget_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36A9E1;
+    margin-top: 10px;
+}
+.widget_dep {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dep_cub {
+    width: 150px;
+    height: 150px;
+    background-color: #36A9E1;
+    margin-bottom: 30px;
+}
+.make_text {
+    margin-bottom: 20px;
+}
 
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
 /* Rodapé */
