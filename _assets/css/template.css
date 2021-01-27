@@ -152,6 +152,53 @@ nav a:hover {
 .corpo section {
     flex: 2;
 }
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.widget_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.news_data {
+    display: flex;
+}
+.news_data_post {
+    background-color: #2B4C99;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 3px;
+}
+.news_data_like {
+    background-color: #39aae1;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+}
+.news_thumb {
+    margin-top: 10px;
+}
+.news_thumb img {
+    width: 100%;
+    height: auto;
+}
+.news_title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 23px;
+}
+.news_text {
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+}
+article a {
+    text-decoration: none;
+}
 
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
 /* Corpo - Aside */
