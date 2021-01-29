@@ -238,3 +238,84 @@ article a {
 /* ##### ##### ##### ##### ##### ##### ##### ##### */
 /* Rodapé */
 
+footer {
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+.footer_menu {
+    display: flex;
+}
+.footer_menu a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+.fm_esq,
+.fm_cen,
+.fm_dir {
+    flex: 1;
+    color: #FFFFFF;
+}
+.fm_esq {
+    background-color: #39AAE1;
+}
+.fm_cen {
+    background-color: #0079C7;
+}
+.fm_dir {
+    background-color: #2B4C99;
+}
+.footer_corpo {
+    display: flex;
+}
+.fm_corpo_esq,
+.fm_corpo_cen,
+.fm_corpo_dir {
+    flex: 1;
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+.footer_corpo .widget_title_text {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footer_copy {
+    border-top: 1px solid #828282;
+    color: #828282;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.fm_banner_title {
+    margin-bottom: 1px;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.fm_banner_desc {
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 2px;
+}
+.fm_corpo_text_cinza {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #828282;
+}
+.fm_corpo_text_branco {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.ender_tele {
+    display: flex;
+    justify-content: space-between;
+}
